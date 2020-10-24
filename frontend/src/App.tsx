@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.scss';
-import LoginSignup from './components/login-signup/loginSignup.component'
+import LoginSignupPage from './pages/login-signup/loginSignup.page';
+
+
 
 function App() {
   return (
     <div className="App">
-        <LoginSignup/>
+        <LoginSignupPage/>
     </div>
   );
 }

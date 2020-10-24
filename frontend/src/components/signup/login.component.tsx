@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form, Input, Button, Checkbox } from 'antd'
+import './loginSignup.styles.scss'
 
 const LoginSignup = () => {
     const layout = {
@@ -20,14 +21,15 @@ const LoginSignup = () => {
             {...layout}
             onFinish={submitForm}
             initialValues={{ remember: true }}
-            style={{border:"solid 1px",padding:50,boxShadow:"0 0 10px 0px black"}}
+            className="login-form"
+            style={{border:"solid 1px",padding:50,boxShadow:"0 0 10px 0px black",background:'#69c0ff'}}
         >
             <Form.Item
                 label="Email"
                 name="email"
                 rules={[{ required: true, message: 'Please input your email!' }]}
             >
-                <Input />
+                <Input/>
             </Form.Item>
             <Form.Item
                 label="Password"

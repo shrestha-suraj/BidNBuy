@@ -1,0 +1,19 @@
+.login-form{
+    border:solid 1px;
+    box-shadow: 0 0 10px 0 black;
+    background: #69c0ff;
+
+
+    .input{
+        padding:10px;
+        border-radius: 10px;
+        &:focus{
+            border:1px solid green;
+            box-shadow: 0 0 5px 0 green;
+        }
+    }
+
+    div[role="alert"]{
+        color:white;
+    }
+}

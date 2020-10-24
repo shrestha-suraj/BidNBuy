@@ -1,0 +1,15 @@
+.login-signup-page{
+    width:100%;
+    height: 100%;
+    background: #ffa940;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:375px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
